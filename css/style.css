@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ff7978;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    background-color: #ff7978;
+    position: relative;
+}
+
+.first {
+    position: absolute;
+    top: 260px;
+    left: 200px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.second {
+    position: absolute;
+    top: 320px;
+    left: 200px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.content span {
+    position: absolute;
+    top: 410px;
+    left: 200px;
+    font-size: 13px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.blue-bar {
+    width: 550px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: #5d54a3;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+    position: absolute;
+    top: 120px;
+    right: 200px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.blue-bar p {
+    font-size: 12px;
+    font-weight: 100;
+    color: white;
+}
+
+.blue-bar .free {
+    color: lightgray;
+}
+
+.main-box {
+    width: 550px;
+    height: 475px;
+    border-radius: 10px;
+    background-color: #fff;
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    z-index: 1;
+}
+
+#fname {
+    width: 450px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 0 0 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+#lname {
+    width: 450px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 0 0 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+#email {
+    width: 450px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 0 0 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+#password {
+    width: 450px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 0 0 0 30px;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+#btn {
+    width: 450px;
+    height: 50px;
+    border: none;
+    background-color: #38ca8b;
+    color: #fff;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.hii {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    font-size: 10px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.hii .free-2 {
+    color: #ff7978;
+    cursor: pointer;
+}
+
+.blue-bar-shadow {
+    width: 550px;
+    height: 67px;
+    border-radius: 10px;
+    background-color: #cd646f;
+    position: absolute;
+    top: 120px;
+    right: 200px;
+    z-index: 0;
+}
+
+.main-box-shadow {
+    width: 550px;
+    height: 483px;
+    border-radius: 10px;
+    background-color: #cd646f;
+    position: absolute;
+    top: 200px;
+    right: 200px;
+    z-index: 0;
+}
+
+#first-text {
+    font-size: 13px;
+    color: #ff7978;
+    position: absolute;
+    top: 85px;
+    left: 300px;
+    font-style: italic;
+    visibility: hidden;
+}
+
+#second-text {
+    font-size: 13px;
+    color: #ff7978;
+    position: absolute;
+    top: 165px;
+    left: 300px;
+    font-style: italic;
+    visibility: hidden;
+}
+
+#third-text {
+    font-size: 13px;
+    color: #ff7978;
+    position: absolute;
+    top: 245px;
+    left: 300px;
+    font-style: italic;
+    visibility: hidden;
+}
+
+#fourth-text {
+    font-size: 13px;
+    color: #ff7978;
+    position: absolute;
+    top: 325px;
+    left: 300px;
+    font-style: italic;
+    visibility: hidden;
+}
+
+#fourth-text1 {
+    font-size: 13px;
+    color: #ff7978;
+    position: absolute;
+    top: 325px;
+    left: 200px;
+    font-style: italic;
+    visibility: hidden;
+}
+
+#error-a {
+    position: absolute;
+    top: 43px;
+    right: 85px;
+    visibility: hidden;
+}
+
+#error-b {
+    position: absolute;
+    top: 123px;
+    right: 85px;
+    visibility: hidden;
+}
+
+#error-c {
+    position: absolute;
+    top: 203px;
+    right: 85px;
+    visibility: hidden;
+}
+
+#error-d {
+    position: absolute;
+    top: 283px;
+    right: 85px;
+    visibility: hidden;
+}
+
+@media (max-width: 425px) {
+    section {
+        height: 100%;
+        overflow-x: hidden;
+    }
+    .first {
+        top: 20px;
+        left: 40px;
+        font-size: 40px;
+    }
+    .second {
+        top: 60px;
+        left: 40px;
+        font-size: 40px;
+    }
+    .content span {
+        text-align: center;
+        top: 130px;
+        left: 0;
+    }
+    .blue-bar {
+        width: 90%;
+        height: 11%;
+        top: 270px;
+        right: 20px;
+    }
+    .blue-bar p {
+        font-size: 14px;
+    }
+    .blue-bar-shadow {
+        width: 90%;
+        height: 11.3%;
+        top: 275px;
+        right: 20px;
+    }
+    .main-box {
+        width: 90%;
+        height: 60%;
+        top: 390px;
+        right: 20px;
+    }
+    #fname {
+        width: 90%;
+        height: 50px;
+        margin-left: 20px;
+    }
+    #lname {
+        width: 90%;
+        height: 50px;
+        margin-left: 20px;
+    }
+    #email {
+        width: 90%;
+        height: 50px;
+        margin-left: 20px;
+    }
+    #password {
+        width: 90%;
+        height: 50px;
+        margin-left: 20px;
+    }
+    #btn {
+        width: 90%;
+        height: 50px;
+        margin-left: 20px;
+    }
+    .hii {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        font-size: 10px;
+        margin-left: 70px;
+        margin-top: 15px;
+    }
+    .hii .free-2 {
+        position: absolute;
+        top: 435px;
+        left: 130px;
+        color: #ff7978;
+        cursor: pointer;
+    }
+    .main-box-shadow {
+        width: 90%;
+        height: 60%;
+        top: 400px;
+        right: 20px;
+    }
+    #first-text {
+        font-size: 12px;
+        left: 170px;
+    }
+    #second-text {
+        font-size: 12px;
+        left: 170px;
+    }
+    #third-text {
+        font-size: 12px;
+        left: 170px;
+    }
+    #fourth-text {
+        font-size: 12px;
+        left: 170px;
+    }
+    #fourth-text1 {
+        font-size: 12px;
+        left: 80px;
+    }
+    #error-a {
+        right: 45px;
+    }
+    #error-b {
+        right: 45px;
+    }
+    #error-c {
+        right: 45px;
+    }
+    #error-d {
+        right: 45px;
+    }
+}
